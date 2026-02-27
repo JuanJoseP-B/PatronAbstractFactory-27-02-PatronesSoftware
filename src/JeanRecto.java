@@ -1,4 +1,9 @@
 
-public class JeanRecto {
-
+public class JeanRecto implements Jean{
+	
+	@Override 
+	public void description() {
+		 System.out.println("Jean estilo Recto");
+		
+	}
 }
