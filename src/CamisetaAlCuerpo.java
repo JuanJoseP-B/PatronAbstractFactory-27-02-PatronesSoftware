@@ -1,4 +1,6 @@
 
-public class CamisetaAlCuerpo {
+public interface Camiseta {
 
+	void description();
+	
 }
